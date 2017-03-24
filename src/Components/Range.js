@@ -35,4 +35,10 @@ class Range extends Component {
   }
 }
 
+Range.propTypes = {
+  min: React.PropTypes.number.isRequired,
+  max: React.PropTypes.number.isRequired,
+  step: React.PropTypes.number.isRequired
+}
+
 export default Range;
